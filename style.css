@@ -1,0 +1,305 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", system-ui;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.logo {
+    width: 80px;
+}
+
+.list-items {
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+
+.list {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.list:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.home-content {
+    margin: 15% 0px 0px 10%;
+}
+
+#username {
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-family: "Cormorant Garamond", serif;
+}
+
+#name {
+    font-family: "Cormorant Garamond", serif;
+    color: orange;
+}
+
+#user-details {
+    line-height: 1.2;
+}
+
+#download {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.home-images {
+    width: 45%;
+    height: 75%;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+}
+
+.images {
+
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 45%;
+    transform: translateX(-45%);
+
+}
+
+.home-images:hover #shape {
+    bottom: 80px;
+}
+
+.home-images:hover #girl {
+    left: 30%;
+}
+
+#about {
+    margin: 20% 8% 0px 8%;
+}
+
+.sectionHead {
+    text-align: center;
+}
+
+
+#mainHead {
+    font-size: 25px;
+    font-weight:700;
+}
+
+#subHead {
+    font-size: 20px;
+    color: green;
+}
+
+.aboutBody {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    align-items: center;
+}
+
+#image1 {
+    width: 80%;
+}
+
+.aboutContent {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.information {
+    margin-top: 1.3rem;
+}
+
+.infoBox {
+    margin-bottom: 10px;
+}
+
+.infoBox>span {
+    margin-left: 1rem;
+}
+
+#skill{
+margin: 8% 8% 0px 8%;
+}
+
+.skillcontent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap:250px;
+    margin-top: 20px;
+}
+
+.bars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0.8rem 0px;
+}
+
+.mainhead,.barpercentage{
+    font-weight: 500px;
+    font-size: 1rem;
+}
+
+.basebar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.htmlbar{
+    background-color: orange;
+    width: 89%;
+}
+
+.cssbar{
+    background-color: orange;
+    width: 80%;
+}
+
+.jsbar{
+    background-color: orange;
+    width: 77%;
+}
+
+.reactbar{
+    background-color: orange;
+    width: 85%;
+}
+
+#contacts{
+    margin: 8% 8% 0px 8%;
+}
+
+.iconcollections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.icons{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px 0px 5px;
+    
+}
+
+.brands{
+    color: black;
+    font-size: 1.8rem;
+}
+
+.icons:hover{
+    background-image: linear-gradient(to bottom right,green,blue);
+}
+
+.icons:hover .brands{
+    color: white;
+    /* animations */
+    animation: rotate 3s;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(60deg);
+    }
+
+    20%{
+        transform: rotate(-60deg);
+    }
+
+    40%{
+        transform: rotate(60deg);
+    }
+
+    50%{
+        transform: rotate(-60deg);
+    }
+
+    60%{
+        transform: rotate(60deg);
+    }
+
+    80%{
+        transform: rotate(-60deg);
+    }
+
+    100%{
+        transform: rotate(60deg);
+    }
+}
+
+footer{
+    margin-top: 8%;
+}
+
+#copyright{
+    text-align: center;
+    font-weight: 600;
+}
+
+.upArrow{
+    float: right;
+    margin-top: -2.5%;
+    
+
+}
+.topangle{
+    color: black;
+}
+.icons:hover .topangle{
+    color: white;
+    /* animations */
+    animation: rotate 3s;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: transparent;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 10px;
+}

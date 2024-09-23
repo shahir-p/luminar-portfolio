@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- css file link -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- font awsome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- animation.style -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  <!-- AOS animation scroll -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- nav bar -->
+        <nav>
+            <!-- images -->
+            <img class="logo"
+                src="./images/logo.png"
+                alt="no image">
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a class="list" href="#Homecontent">Home</a></li>
+                <li class="list-items"><a class="list" href="#about">About</a></li>
+                <li class="list-items"><a class="list" href="#skill">Skills</a></li>
+                <li class="list-items"><a class="list" href="#contacts">Contact</a></li>
+
+            </ul>
+        </nav>
+
+        <!-- home -->
+        <section id="Homecontent">
+            <!-- home text -->
+            <div class="home-content">
+                <h1 class="animate_animated animate_wobble" id="username">I'm <span id="name">Muhammad shahir</span></h1>
+                <p id="user-details">This is my portfolio website to describe <br>
+                    details and work experience in web development.
+                </p>
+                <a id="download" href="./images/MUHAMMAD SHAHIR P CV.pdf" download>DOWNLOAD CV</a>
+            </div>
+            <!-- home images -->
+            <div class="home-images">
+                <!-- shape -->
+                <img id="shape" class="images" src="./images/bg.png" alt="no image!">
+                <!-- girl image -->
+                <img id="girl" class="images" src="./images/lady.png" alt="no image!" width="250px">
+            </div>
+        </section>
+
+        <!-- about -->
+        <section id="about">
+            <div class="sectionHead">
+                <h2 id="mainHead">About Me</h2>
+                <span id="subHead">Introduction</span>
+            </div>
+            <div class="aboutBody">
+                <div data-aos="zoom-in-right" class="aboutImage">
+                    <img id="image1" src=".//images/aboutme.jpg" alt="no image!">
+                </div>
+                <div class="aboutContent">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident suscipit aliquam itaque
+                        doloremque praesentium odit atque! Corporis fugiat obcaecati a quasi deserunt, modi suscipit
+                        dolores magnam. Dicta a quo similique.
+                        Distinctio, provident, illum a tempore reiciendis dolorem eos dignissimos, explicabo voluptas ad
+                        perspiciatis natus repellat voluptatum dolores. Vero perferendis perspiciatis exercitationem,
+                        molestias atque labore itaque libero adipisci et impedit reprehenderit!</p>
+
+                    <!-- informaions -->
+                    <div class="information">
+                        <div class="infoBox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Muhammad shahir P</span>
+                        </div>
+
+                        <div class="infoBox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>9526718126</span>
+                        </div>
+
+                        <div class="infoBox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>shahirp70@gmail.com</span>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- skill -->
+        <section id="skill">
+            <div class="sectionHead">
+                <h2 id="mainHead">Skills</h2>
+                <span id="subHead">My Skills</span>
+            </div>
+            <div class="skillcontent">
+                <div class="progessbars" >
+                    <!-- progress bars -->
+                    <div class="bars">
+                        <h3 class="mainhead">HTML</h3>
+                        <SPAN class="barpercentage">89%</SPAN>
+                        <div class="basebar" ></div>
+                        <div class="basebar htmlbar"  data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine"></div>
+                    </div>
+
+                    <div class="bars">
+                        <h3 class="mainhead">CSS</h3>
+                        <SPAN class="barpercentage">80%</SPAN>
+                        <div class="basebar"></div>
+                        <div class="basebar cssbar"data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" ></div>
+                    </div>
+
+                    <div class="bars">
+                        <h3 class="mainhead">JS</h3>
+                        <SPAN class="barpercentage">77%</SPAN>
+                        <div class="basebar"></div>
+                        <div class="basebar jsbar"data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine"></div>
+                    </div>
+
+                    <div class="bars">
+                        <h3 class="mainhead">REACT</h3>
+                        <SPAN class="barpercentage">85%</SPAN>
+                        <div class="basebar"></div>
+                        <div class="basebar reactbar" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine"></div>
+                    </div>
+                </div>
+
+
+                <div data-aos="zoom-in-left" class="skillimage">
+                    <img width="80%" class="image2" src="./images/skill.png" alt="no image!" width="200px">
+                </div>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section id="contacts">
+            <div class="sectionHead">
+                <h2 id="mainHead">Contacts</h2>
+                <span id="subHead">My Contacts</span>
+            </div>
+            <div class="iconcollections">
+                <!-- linkedin -->
+                 <div class="icons">
+                    <a href="https://www.linkedin.com/in/shahir-p-784418314/" target="_blank"><i class="fa-brands fa-linkedin brands"></i></a>
+                 </div>
+
+                <!-- github -->
+                <div class="icons">
+                    <a href="https://github.com/shahirMS7" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+                 </div>
+
+                <!-- x -->
+                <div class="icons">
+                    <a href="https://x.com/?lang=en" target="_blank"><i class="fa-brands fa-x-twitter brands"></i></a>
+                 </div>
+                 
+                <!-- facebook -->
+                <div class="icons">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+                 </div>
+
+                <!-- mail -->
+                <div class="icons">
+                    <a href="https://mail.google.com/" target="_blank"><i class="fa-solid fa-envelope brands"></i></a>
+                 </div>
+
+                 <!-- whatsapp-->
+                <div class="icons">
+                    <a href="https://wa.me/919526718126" target="_blank"><i class="fa-brands fa-whatsapp brands"></i></a>
+                 </div>
+            </div>
+
+
+        </section>
+
+        <!-- footer -->
+         <footer>
+            <p id="copyright">
+                &copy;My Portfolio Website -September 2024,All Rights Reserved &reg; Muhammad Shahir P
+            </p>
+            <div class="icons upArrow ">
+                <a href="#container" ><i class="fa-solid fa-angle-up topangle"></i></a>
+             </div>
+
+         </footer>
+    </div>
+
+
+</body>
+
+<!-- AOS script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+</html>
